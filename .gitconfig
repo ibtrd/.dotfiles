@@ -1,0 +1,8 @@
+[user]
+	name = ibertran
+	email = 128724498+ibtrd@users.noreply.github.com
+[init]
+	defaultBranch = main
+[core]
+	editor = vim
+	excludesFile = ~/.dotfiles/.gitignore_global
