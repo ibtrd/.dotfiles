@@ -2,7 +2,7 @@
 
 DOTFILES_DIR="$HOME/.dotfiles"
 
-git submodule update --init --recursive
+git submodule update --init --remote --recursive
 
 ln -sf $DOTFILES_DIR/.zshrc $HOME/.zshrc
 ln -sf $DOTFILES_DIR/.gitconfig $HOME/.gitconfig
