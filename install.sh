@@ -11,6 +11,7 @@ ln -sf $DOTFILES_DIR/.vimrc $HOME/.vimrc
 
 if [[ $HOSTNAME =~ [A-Za-z0-9]+\.42lyon\.fr ]]; then
 	ln -sf $DOTFILES_DIR/ft_scripts $HOME/scripts
+	ln -sf $DOTFILES_DIR/.desktop/discord.desktop $HOME/.local/share/applications/
 
 	cp $DOTFILES_DIR/ft_scripts/logout.sh $HOME/sgoinfre/logout
 	cp $DOTFILES_DIR/ft_scripts/unlock.sh $HOME/sgoinfre/unlock

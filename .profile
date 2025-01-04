@@ -6,5 +6,7 @@ DOTFILES_DIR="$HOME/.dotfiles"
 if [[ $HOSTNAME =~ [A-Za-z0-9]+\.42lyon\.fr ]]; then
     FT_SCRIPTS_DIR="$DOTFILES_DIR/ft_scripts"
     bash $FT_SCRIPTS_DIR/install-nvm.sh
+    bash $FT_SCRIPTS_DIR/install-discord.sh
     bash $FT_SCRIPTS_DIR/codam-web-greeter.sh
+	mkdir -p $HOME/goinfre/.node_modules
 fi
